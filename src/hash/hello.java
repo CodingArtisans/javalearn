@@ -4,7 +4,14 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 
 public class hello {
-
+    /**
+     * create by: Yingshi Hou
+     * description:
+     * create time: 10:01 2018/10/31
+     * 
+     No such property: code for class: Script1
+     * @return 
+     */
     public  int hash(String routing) {
         final byte[] bytesToHash = new byte[routing.length() * 2];
         for (int i = 0; i < routing.length(); ++i) {
@@ -74,15 +81,5 @@ public class hello {
         return h1;
     }
 
-    public void t(){
-        Future<Void> f = pool.submit(new Callable() {
-            @Override
-            public Void call() throws Exception {
 
-                return null;
-            }
-
-        });
-
-    }
 }
